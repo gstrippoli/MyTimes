@@ -1,12 +1,38 @@
 .header {
-   border: 2px solid black;
-   display: flex;
+  display: flex;
    width: auto;
-   height: 100px;
+   height: 60px;
    margin-top: 25px;
    margin-left: 10px;
    margin-right: 10px;
 }
+
+.header span {
+  color: MediumAquamarine;
+  position: fixed;
+  display: flex;
+  top: 45px;
+  padding-left: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav {
+  position: fixed;
+  font-family: Verdana;
+  font-size: 14px;
+  top: 45px;
+  text-align: right;
+  z-index: 2;
+  width: 97%;
+}
+
+.nav span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 
 .main {
   border: 2px solid black;
@@ -20,11 +46,13 @@
 
 .column-large {
   border: 2px solid black;
+  display: flex;
   width: 630px;
 }
 
 .column-middle {
   border: 2px solid black;
+  display: flex;
   width: 300px;
   margin-left: 10px;
 }
