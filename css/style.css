@@ -1,0 +1,46 @@
+.header {
+   border: 2px solid black;
+   display: flex;
+   width: auto;
+   height: 100px;
+   margin-top: 25px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.main {
+  border: 2px solid black;
+  margin-top: 20px;
+  display: flex;
+  width: auto;
+  height: 700px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.column-large {
+  border: 2px solid black;
+  width: 630px;
+}
+
+.column-middle {
+  border: 2px solid black;
+  width: 300px;
+  margin-left: 10px;
+}
+
+.column-small {
+  border: 2px solid black;
+  width: 240px;
+  margin-left: 10px;
+}
+
+.footer {
+  border: 2px solid black;
+  display: flex;
+  width: auto;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
