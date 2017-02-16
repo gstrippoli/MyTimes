@@ -140,3 +140,88 @@ p.story-2, p.story-3 {
 .story-4-title span {
   margin-top: 90px;
 }
+
+.story-5-title {
+  display: block;
+  position: relative;
+  margin-left: 320px;
+  margin-top: -305px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  width: 275px;
+  height: 300px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+
+#story-5-caption {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  color: white;
+  justify-content: center;
+}
+
+.story-5-title span {
+  margin-top: 90px;
+}
+
+.column-medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  height: 1115px;
+}
+
+.story-6-title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 660px;
+  margin-top: -1145px;
+  width: 300px;
+}
+
+p.story-6 {
+  margin-top: 0px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.container-7 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 660px;
+  margin-top: -685px;
+}
+
+.story-7-title {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+#story-7-caption {
+  position: absolute;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.story-7 {
+  display: block;
+  position: relative;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 300px;
+}
