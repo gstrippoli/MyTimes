@@ -225,3 +225,96 @@ p.story-6 {
   color: black;
   width: 300px;
 }
+
+.column-small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  height: 1115px;
+}
+
+.cookie {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: -1145px;
+}
+
+img.cookie {
+  height: 240px;
+}
+
+.news-bites {
+  display: block;
+  margin-left: 1000px;
+  margin-top: -895px;
+  width: 240px;
+  font-family; Verdana;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-bites h3 {
+  text-align: center;
+}
+
+.bites {
+  display: block;
+  border-bottom: 1px solid black;
+  background-color: rgb(241, 242, 243);
+  height: 40px;
+  width: 240px;
+  font-size: 12px;
+  font-family: Verdana;
+  padding: 11px 20px;
+  color: DimGray;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquaMarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.info {
+  display: block;
+}
+
+ footer .title {
+  color: white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  width: 110px;
+  height: 19px;
+  border-right: 2px white solid;
+  display: inline-block;
+}
+
+footer nav {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+footer nav span a {
+  color: black;
+}
+
+.copyright {
+  font-size: 12px;
+  font-family: Georgia;
+}
